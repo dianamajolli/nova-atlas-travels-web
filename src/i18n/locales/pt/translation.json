@@ -1,0 +1,63 @@
+{
+  "navbar": {
+    "home": "Início",
+    "services": "Serviços",
+    "testimonials": "Depoimentos",
+    "contact": "Contato",
+    "languageSwitcher": "EN"
+  },
+  "hero": {
+    "title": "Desfrute da viagem perfeita criada SOMENTE para você!",
+    "subtitle": "Nova Atlas Travels - Sua designer de viagens pessoal.",
+    "cta": "Descubra Mais"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "service1": {
+      "title": "Roteiros Personalizados",
+      "description": "Planos de viagem feitos sob medida para combinar com suas preferências e sonhos únicos."
+    },
+    "service2": {
+      "title": "Experiências Exclusivas",
+      "description": "Acesso a atividades únicas e joias escondidas que você não encontrará em nenhum outro lugar."
+    },
+    "service3": {
+      "title": "Acomodações de Luxo",
+      "description": "Seleção escolhida a dedo dos melhores hotéis, villas e estadias boutique."
+    }
+  },
+  "testimonials": {
+    "title": "O Que Nossos Clientes Dizem",
+    "quote1": "Trabalhar com a Nova Atlas Travels foi um sonho. Cuidaram de cada detalhe e nossa viagem foi inesquecível. Recomendo muito!",
+    "author1": "Maria Silva, Viajante Feliz",
+    "quote2": "O roteiro personalizado foi perfeito para nossa família. A Nova Atlas Travels entendeu exatamente o que procurávamos.",
+    "author2": "João Santos, Férias em Família",
+    "quote3": "Do início ao fim, o serviço foi excepcional. Nos sentimos verdadeiramente mimados e bem cuidados durante toda a nossa jornada.",
+    "author3": "Ana Costa, Exploradora de Luxo"
+  },
+  "cta": {
+    "title": "Pronto para Planejar Sua Viagem dos Sonhos?",
+    "subtitle": "Deixe a Nova Atlas Travels criar uma experiência inesquecível só para você.",
+    "button": "Vamos Começar!"
+  },
+  "footer": {
+    "about": {
+      "title": "Nova Atlas Travels",
+      "description": "Criando experiências de viagem únicas e memoráveis, desenhadas só para você. Explore o mundo com um toque chique e sofisticado."
+    },
+    "links": {
+      "title": "Links Rápidos",
+      "home": "Início",
+      "services": "Serviços",
+      "testimonials": "Depoimentos",
+      "contact": "Contato"
+    },
+    "contact": {
+      "title": "Entre em Contato",
+      "email": "Email: {{email}}",
+      "phone": "Telefone: {{phone}}"
+    },
+    "copyright": "© {{year}} Nova Atlas Travels. Todos os Direitos Reservados."
+  }
+}
+

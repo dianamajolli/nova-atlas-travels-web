@@ -1,0 +1,77 @@
+/* src/App.css */
+
+/* Define color palette as CSS variables for easy modification */
+:root {
+  --nova-midnight-blue: #191970;
+  --nova-deep-ocean: #003366;
+  --nova-tropical-blue: #00CED1;
+  --nova-golden-tan: #D2B48C;
+  --nova-white-sand: #F5F5DC;
+
+  /* Define a base font family for a chic and sophisticated look */
+  --nova-font-primary: 'Montserrat', sans-serif; /* Example: Montserrat, a clean and modern sans-serif */
+  --nova-font-secondary: 'Lora', serif; /* Example: Lora, an elegant serif for headings or accents */
+}
+
+body {
+  margin: 0;
+  font-family: var(--nova-font-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--nova-white-sand); /* Default background for the page */
+  color: var(--nova-deep-ocean); /* Default text color */
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+}
+
+/* General styles for headings to maintain consistency */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--nova-font-secondary);
+  color: var(--nova-midnight-blue); /* Default heading color */
+}
+
+/* Add a class for buttons to ensure consistent styling that can be overridden */
+.button-global {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: var(--nova-font-primary);
+  font-weight: 600; /* Semi-bold for buttons */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.button-primary {
+  background-color: var(--nova-golden-tan);
+  color: var(--nova-midnight-blue);
+  border-color: var(--nova-golden-tan);
+}
+
+.button-primary:hover {
+  background-color: var(--nova-tropical-blue);
+  color: var(--nova-white-sand);
+  border-color: var(--nova-tropical-blue);
+  transform: translateY(-2px);
+}
+
+/* Add a class for links to ensure consistent styling */
+a {
+  color: var(--nova-tropical-blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--nova-golden-tan);
+}
+
+/* Ensure components have some top margin if they follow a fixed navbar */
+/* This might need adjustment based on actual Navbar height */
+.App > section:first-of-type {
+   /*padding-top: 70px;*/  /* Example: if Navbar height is 70px */
+} 
+

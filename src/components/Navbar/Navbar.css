@@ -1,0 +1,100 @@
+/* Navbar.css */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: rgba(25, 25, 112, 0.7); 
+  /*background-color: var(--nova-midnight-blue);*/
+  color: var(--nova-white-sand);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+  font-family: var(--nova-font-primary);
+}
+
+.navbar-logo {
+  font-size: 1.8rem; /* Increased size for better visibility */
+  font-weight: bold;
+  font-family: var(--nova-font-secondary); /* Using secondary font for logo */
+  color: var(--nova-white-sand);
+}
+
+.logo-img {
+  height: 80px;
+  width: auto;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 2rem; /* Increased spacing */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: var(--nova-white-sand);
+  font-weight: 500;
+  font-size: 1rem; /* Consistent font size */
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--nova-tropical-blue);
+}
+
+.navbar-language-switcher .language-button {
+  background-color: var(--nova-golden-tan);
+  color: var(--nova-midnight-blue);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--nova-font-primary);
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-language-switcher .language-button:hover {
+  background-color: var(--nova-tropical-blue);
+  color: var(--nova-white-sand);
+}
+
+/* Responsive adjustments for Navbar */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center; /* Center items on mobile */
+    padding: 1rem;
+  }
+
+  .navbar-logo {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem; /* Reduced margin */
+  }
+
+  .navbar-links li {
+    margin-left: 0;
+    margin-bottom: 0.75rem; /* Adjusted spacing */
+    text-align: center;
+  }
+
+  .navbar-language-switcher {
+    margin-top: 1rem;
+    align-self: center;
+  }
+}
+

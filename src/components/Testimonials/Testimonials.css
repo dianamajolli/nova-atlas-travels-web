@@ -1,0 +1,94 @@
+/* Testimonials.css */
+.testimonials-container {
+  padding: 4rem 2rem;
+  background-color: var(--nova-tropical-blue);
+  color: var(--nova-midnight-blue);
+  text-align: center;
+  font-family: var(--nova-font-primary);
+}
+
+.testimonials-title {
+  font-family: var(--nova-font-secondary);
+  font-size: 2.8rem;
+  margin-bottom: 3.5rem;
+  font-weight: 600;
+  color: var(--nova-white-sand); /* White sand for title on tropical blue background */
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-item {
+  background-color: var(--nova-white-sand);
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  border-left: 5px solid var(--nova-golden-tan);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.testimonial-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--nova-deep-ocean);
+  margin-bottom: 1.5rem; /* Increased margin */
+  line-height: 1.8; /* Increased line height for readability */
+  position: relative;
+  padding-left: 25px;
+}
+
+.testimonial-quote::before {
+  content: "\201C";
+  font-size: 3.5rem; /* Larger quote mark */
+  color: var(--nova-golden-tan);
+  position: absolute;
+  left: -15px; /* Adjusted position */
+  top: -15px; /* Adjusted position */
+  line-height: 1;
+  opacity: 0.8;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--nova-midnight-blue);
+  text-align: right;
+  font-family: var(--nova-font-secondary);
+}
+
+/* Responsive adjustments for Testimonials */
+@media (max-width: 768px) {
+  .testimonials-title {
+    font-size: 2.2rem;
+  }
+  .testimonial-quote {
+    font-size: 1rem;
+  }
+  .testimonial-author {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-container {
+    padding: 3rem 1rem;
+  }
+  .testimonials-title {
+    font-size: 2rem;
+  }
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

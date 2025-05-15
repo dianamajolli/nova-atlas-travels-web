@@ -1,0 +1,63 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact Us",
+    "languageSwitcher": "PT"
+  },
+  "hero": {
+    "title": "Enjoy the perfect trip created ONLY for you!",
+    "subtitle": "Nova Atlas Travels - Your personal travel designer",
+    "cta": "Discover More"
+  },
+  "services": {
+    "title": "Our Services",
+    "service1": {
+      "title": "Personalized Itineraries",
+      "description": "Tailor-made travel plans designed to match your unique preferences and dreams."
+    },
+    "service2": {
+      "title": "Exclusive Experiences",
+      "description": "Access to unique activities and hidden gems that you won’t find anywhere else."
+    },
+    "service3": {
+      "title": "Luxury Accommodations",
+      "description": "Handpicked selection of the finest hotels, villas, and boutique stays."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "quote1": "Working with Nova Atlas Travels was a dream. They took care of every detail, and our trip was unforgettable. Highly recommend!",
+    "author1": "Jane Doe, Happy Traveler",
+    "quote2": "The personalized itinerary was perfect for our family. Nova Atlas Travels understood exactly what we were looking for.",
+    "author2": "John Smith, Family Vacationer",
+    "quote3": "From start to finish, the service was exceptional. We felt truly pampered and well-cared for throughout our journey.",
+    "author3": "Alice Brown, Luxury Explorer"
+  },
+  "cta": {
+    "title": "Ready to Design Your Dream Trip?",
+    "subtitle": "Let Nova Atlas Travels craft an unforgettable experience just for you.",
+    "button": "Let's Get Started!"
+  },
+  "footer": {
+    "about": {
+      "title": "Nova Atlas Travels",
+      "description": "Crafting unique and memorable travel experiences, designed just for you. Explore the world with a touch of chic and sophistication."
+    },
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "contact": "Contact Us"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "Email: {{email}}",
+      "phone": "Phone: {{phone}}"
+    },
+    "copyright": "© {{year}} Nova Atlas Travels. All Rights Reserved."
+  }
+}
+

@@ -1,0 +1,65 @@
+/* CTA.css */
+.cta-container {
+  padding: 5rem 2rem; /* Increased padding for more impact */
+  background-color: var(--nova-deep-ocean);
+  color: var(--nova-white-sand);
+  text-align: center;
+  font-family: var(--nova-font-primary);
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-family: var(--nova-font-secondary);
+  font-size: 2.8rem; /* Increased size */
+  font-weight: 700; /* Bolder */
+  margin-bottom: 1.5rem;
+  color: var(--nova-white-sand);
+}
+
+.cta-subtitle {
+  font-size: 1.3rem; /* Increased size */
+  margin-bottom: 2.5rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--nova-white-sand);
+  opacity: 0.9; /* Slight transparency for subtitle */
+}
+
+/* Using global button styles from App.css */
+.cta-button {
+  /* Extends .button-global and .button-primary from App.css */
+  padding: 1.2rem 3rem; /* Larger padding for CTA button */
+  font-size: 1.2rem; /* Larger font size */
+  text-transform: uppercase;
+}
+
+/* Responsive adjustments for CTA */
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 2.2rem;
+  }
+  .cta-subtitle {
+    font-size: 1.15rem;
+  }
+  .cta-button {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-container {
+    padding: 3.5rem 1rem;
+  }
+  .cta-title {
+    font-size: 2rem;
+  }
+  .cta-subtitle {
+    font-size: 1.05rem;
+  }
+}
+

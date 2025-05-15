@@ -1,0 +1,85 @@
+/* Services.css */
+.services-container {
+  padding: 4rem 2rem;
+  background-color: var(--nova-white-sand);
+  text-align: center;
+  font-family: var(--nova-font-primary);
+}
+
+.services-title {
+  font-family: var(--nova-font-secondary);
+  font-size: 2.8rem; /* Increased size */
+  color: var(--nova-deep-ocean);
+  margin-bottom: 3.5rem; /* Increased margin */
+  font-weight: 600;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Adjusted minmax */
+  gap: 2.5rem; /* Increased gap */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-item {
+  background-color: #ffffff; /* Keeping pure white for cards for contrast */
+  padding: 2.5rem; /* Increased padding */
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid var(--nova-tropical-blue); /* Accent color */
+}
+
+.service-item:hover {
+  transform: translateY(-8px); /* More pronounced hover effect */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+  width: 45px; /* Adjusted size */
+  height: 45px;
+  margin-bottom: 1.5rem;
+  fill: var(--nova-golden-tan); /* Using Golden Tan for icons */
+}
+
+.service-item h3 {
+  font-family: var(--nova-font-secondary);
+  font-size: 1.6rem; /* Increased size */
+  color: var(--nova-midnight-blue);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: var(--nova-deep-ocean);
+  line-height: 1.7;
+}
+
+/* Responsive adjustments for Services */
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 2.2rem;
+  }
+  .service-item h3 {
+    font-size: 1.4rem;
+  }
+  .service-item p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-container {
+    padding: 3rem 1rem;
+  }
+  .services-title {
+    font-size: 2rem;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
