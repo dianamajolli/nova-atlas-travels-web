@@ -25,7 +25,7 @@
 .footer-section h4 {
   font-family: var(--nova-font-secondary);
   font-size: 1.3rem; /* Increased size */
-  color: var(--nova-tropical-blue);
+  color: var(--nova-golden-tan);/*var(--nova-tropical-blue);*/
   margin-bottom: 1.2rem; /* Increased margin */
   font-weight: 600; /* Bolder */
 }

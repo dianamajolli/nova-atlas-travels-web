@@ -1,7 +1,7 @@
 /* Testimonials.css */
 .testimonials-container {
   padding: 4rem 2rem;
-  background-color: var(--nova-tropical-blue);
+  background-color: var(--nova-midnight-blue);/*var(--nova-tropical-blue);*/
   color: var(--nova-midnight-blue);
   text-align: center;
   font-family: var(--nova-font-primary);

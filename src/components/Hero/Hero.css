@@ -42,21 +42,21 @@
   box-sizing: border-box;
 }
 
-.hero-content-overlay h1 {
+.hero-content-overlay p {
   font-family: var(--nova-font-secondary);
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
   color: var(--nova-white-sand);
   text-shadow: 1px 1px 3px rgba(0,0,0,3.7); /* Stronger shadow for better contrast */
 }
 
-.hero-content-overlay p {
-  font-family: var(--nova-font-primary);
-  font-size: 1.6rem;
+.hero-content-overlay h1  {
+  font-family: var(--nova-font-secondary);
+  font-size: 4.5rem;
   margin-bottom: 2rem;
   color: var(--nova-white-sand);
-  font-weight: 300;
+  font-weight: 700;
   text-shadow: 1px 1px 2px rgba(0,0,0,3.5);
 }
 
