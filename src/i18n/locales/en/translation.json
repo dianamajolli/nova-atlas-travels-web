@@ -18,13 +18,10 @@
       "description": "Tailor-made travel plans designed to match your unique preferences and dreams."
     },
     "service2": {
-      "title": "Exclusive Experiences",
+      "title": "Personalized Travel Consulting",
       "description": "Access to unique activities and hidden gems that you won’t find anywhere else."
-    },
-    "service3": {
-      "title": "Luxury Accommodations",
-      "description": "Handpicked selection of the finest hotels, villas, and boutique stays."
     }
+   
   },
   "testimonials": {
     "title": "What Our Clients Say",

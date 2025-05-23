@@ -41,13 +41,8 @@ const Services = () => {
       titleKey: "services.service2.title",
       descriptionKey: "services.service2.description",
       // icon: "path/to/icon2.svg"
-    },
-    {
-      id: 3,
-      titleKey: "services.service3.title",
-      descriptionKey: "services.service3.description",
-      // icon: "path/to/icon3.svg"
     }
+    
   ];
 
   return (

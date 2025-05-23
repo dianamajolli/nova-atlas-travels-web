@@ -18,13 +18,10 @@
       "description": "Planos de viagem feitos sob medida para combinar com suas preferências e sonhos únicos."
     },
     "service2": {
-      "title": "Experiências Exclusivas",
+      "title": "Consultoria Personalizada de Viagem",
       "description": "Acesso a atividades únicas e joias escondidas que você não encontrará em nenhum outro lugar."
-    },
-    "service3": {
-      "title": "Acomodações de Luxo",
-      "description": "Seleção escolhida a dedo dos melhores hotéis, villas e estadias boutique."
     }
+   
   },
   "testimonials": {
     "title": "O Que Nossos Clientes Dizem",
