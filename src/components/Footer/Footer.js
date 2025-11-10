@@ -63,9 +63,9 @@ const Footer = () => {
           {/* Title for the Contact Info section, translated */}
           <h4>{t("footer.contact.title")}</h4>
           {/* Contact email, translated. The email address itself is passed as an interpolation variable. */}
-          <p>{t("footer.contact.email", { email: "contact@novaatlas.travel" })}</p>
+          <p>{t("footer.contact.email", { email: "novaatlastravels@gmail.com" })}</p>
           {/* Contact phone number, translated. The phone number is passed as an interpolation variable. */}
-          <p>{t("footer.contact.phone", { phone: "+1 234 567 8900" })}</p>
+          <p>{/*t("footer.contact.phone", { phone: "+1 234 567 8900" })*/}</p>
           {/* Placeholder for social media icons, which can be added as needed */}
         </div>
       </div>
