@@ -1,4 +1,5 @@
 // src/components/Footer/Footer.js
+// ATUALIZADO: Removida a seção "Links Rápidos"
 
 // Import React for creating the component
 import React from "react";
@@ -11,8 +12,7 @@ import { useTranslation } from "react-i18next";
  * Footer Component
  * 
  * This component renders the footer section of the website.
- * It typically includes copyright information, links to important pages (like privacy policy, terms of service),
- * contact information, and potentially social media links.
+ * It includes copyright information and contact information.
  * 
  * Styling:
  * - Uses Footer.css for specific styles.
@@ -21,9 +21,9 @@ import { useTranslation } from "react-i18next";
  * 
  * Internationalization:
  * - Uses the `useTranslation` hook to fetch translated strings for all textual content within the footer,
- *   including section titles, descriptions, link texts, and copyright notice.
+ *   including section titles, descriptions, and copyright notice.
  * - Dynamic values like the current year for the copyright notice are handled within the component
- *   and can be passed to the translation function if needed (e.g., t("footer.copyright", { year: currentYear })).
+ *   and can be passed to the translation function (e.g., t("footer.copyright", { year: currentYear })).
  */
 const Footer = () => {
   // Initialize the useTranslation hook to access the t function for translations
@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     // The main container for the footer section
     <footer className="footer-container">
-      {/* Wrapper for the main content of the footer, typically laid out in columns */}
+      {/* Wrapper for the main content of the footer, now with 2 columns instead of 3 */}
       <div className="footer-content">
         {/* Footer Section: About Us */}
         <div className="footer-section about-us">
@@ -44,19 +44,7 @@ const Footer = () => {
           <p>{t("footer.about.description")}</p>
         </div>
 
-        {/* Footer Section: Quick Links */}
-        <div className="footer-section links">
-          {/* Title for the Quick Links section, translated */}
-          <h4>{t("footer.links.title")}</h4>
-          <ul>
-            {/* Navigation links, text translated. hrefs point to page sections. */}
-            <li><a href="#hero">{t("footer.links.home")}</a></li>
-            <li><a href="#services">{t("footer.links.services")}</a></li>
-            <li><a href="#testimonials">{t("footer.links.testimonials")}</a></li>
-            <li><a href="#cta">{t("footer.links.contact")}</a></li>
-            {/* Additional links like Privacy Policy or Terms of Service can be added here */}
-          </ul>
-        </div>
+        {/* REMOVIDO: Footer Section: Quick Links (linhas 47-59 do arquivo original) */}
 
         {/* Footer Section: Contact Information */}
         <div className="footer-section contact-info">
@@ -81,4 +69,3 @@ const Footer = () => {
 
 // Export the Footer component for use in App.js or other parent components
 export default Footer;
-
