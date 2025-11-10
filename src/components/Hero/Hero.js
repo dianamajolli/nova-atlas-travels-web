@@ -1,5 +1,5 @@
 // src/components/Hero/Hero.js
-// CORRIGIDO: ID alterado de "hero" para "home" para corresponder ao link do navbar
+// ATUALIZADO: Adicionado botão CTA que abre Google Forms baseado no idioma
 
 // Import React for creating the component
 import React from "react";
@@ -21,10 +21,10 @@ import heroImage2 from "../../assets/images/hero-background2.jpg"; // Assuming y
 import heroImage3 from "../../assets/images/hero-background3.jpg"; // Assuming you have a third image
 
 /**
- * Hero Component with Image Carousel
+ * Hero Component with Image Carousel and CTA Button
  * 
- * This component renders the main hero section of the landing page, now featuring an image carousel.
- * It includes a carousel of 3 images with overlaid text content (title and subtitle).
+ * This component renders the main hero section of the landing page, now featuring an image carousel
+ * and a call-to-action button that opens Google Forms based on the selected language.
  * 
  * Styling:
  * - Uses Hero.css for specific styles, including carousel customizations.
@@ -32,11 +32,30 @@ import heroImage3 from "../../assets/images/hero-background3.jpg"; // Assuming y
  * - Requires react-slick and slick-carousel to be installed (`npm install react-slick slick-carousel --legacy-peer-deps`).
  * 
  * Internationalization:
- * - Uses the `useTranslation` hook to fetch translated strings for the title and subtitle.
+ * - Uses the `useTranslation` hook to fetch translated strings for the title, subtitle, and button text.
  */
 const Hero = () => {
-  // Initialize the useTranslation hook to access the t function for translations
-  const { t } = useTranslation();
+  // Initialize the useTranslation hook to access the t function for translations and i18n instance
+  const { t, i18n } = useTranslation();
+
+  // Google Forms URLs for different languages
+  const formUrls = {
+    pt: "https://forms.gle/JB997kBdM1mb7FBf8", // Portuguese form URL
+    en: "https://forms.gle/HaG2KKje7ZHmz2zV8" // English form URL
+  };
+
+  // Function to handle button click - opens the appropriate Google Forms in a new tab
+  const handleButtonClick = () => {
+    // Get current language
+    const currentLang = i18n.language;
+    
+    // Select the appropriate form URL based on language
+    // Default to Portuguese form if language is not found
+    const formUrl = formUrls[currentLang] || formUrls.pt;
+    
+    // Open the form in a new tab
+    window.open(formUrl, '_blank');
+  };
 
   // Settings for the react-slick carousel
   const carouselSettings = {
@@ -60,7 +79,7 @@ const Hero = () => {
   ];
 
   return (
-    // CORREÇÃO: ID alterado de "hero" para "home" para corresponder ao link do navbar (#home)
+    // The main container for the hero section, identified by id "home" for navigation
     <section id="home" className="hero-container hero-carousel-section">
       <Slider {...carouselSettings}>
         {carouselImages.map(image => (
@@ -75,8 +94,13 @@ const Hero = () => {
         <h1>{t("hero.title")}</h1>
         {/* The subtitle of the hero section, translated using t("hero.subtitle") */}
         <p>{t("hero.subtitle")}</p>
-        {/* Optional: Call to Action Button - ensure it is styled to be visible over images */}
-        {/* Example: <button className="hero-cta-button button-global button-primary">{t("hero.cta")}</button> */}
+        {/* ADICIONADO: Call to Action Button */}
+        <button 
+          className="hero-cta-button"
+          onClick={handleButtonClick}
+        >
+          {t("cta.button")}
+        </button>
       </div>
     </section>
   );

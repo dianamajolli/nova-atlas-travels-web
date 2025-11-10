@@ -1,4 +1,5 @@
 /* src/components/Hero/Hero.css */
+/* CORRIGIDO: Adicionados estilos para o botão CTA com posicionamento correto no overlay */
 
 /* Styles for the Hero section, now adapted for a carousel */
 .hero-container.hero-carousel-section {
@@ -60,6 +61,39 @@
   text-shadow: 1px 1px 2px rgba(0,0,0,3.5);
 }
 
+/* ADICIONADO: Estilos para o botão CTA no Hero */
+.hero-cta-button {
+  background-color: var(--nova-golden-tan);
+  border: 2px solid var(--nova-golden-tan);
+  color: var(--nova-midnight-blue);
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 50px; /* Botão arredondado para visual elegante */
+  margin-top: 2rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(210, 180, 140, 0.4); /* Sombra dourada suave */
+  /* IMPORTANTE: z-index para garantir que o botão fique acima de tudo */
+  position: relative;
+  z-index: 20;
+}
+
+.hero-cta-button:hover {
+  background-color: var(--nova-midnight-blue);
+  color: var(--nova-golden-tan);
+  border-color: var(--nova-golden-tan);
+  transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+  box-shadow: 0 6px 20px rgba(210, 180, 140, 0.6); /* Sombra mais intensa no hover */
+}
+
+.hero-cta-button:active {
+  transform: translateY(0); /* Volta à posição original ao clicar */
+  box-shadow: 0 2px 10px rgba(210, 180, 140, 0.4);
+}
+
 /* Styling for react-slick carousel dots */
 .hero-carousel-section .slick-dots {
   bottom: 25px; /* Position dots a bit higher from the bottom */
@@ -94,6 +128,12 @@
     padding: 1.5rem 2rem;
     width: 85%;
   }
+  /* ADICIONADO: Ajustes do botão para mobile */
+  .hero-cta-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -110,10 +150,15 @@
   .hero-carousel-section .slick-dots {
     bottom: 15px;
   }
+  /* ADICIONADO: Ajustes do botão para telas muito pequenas */
+  .hero-cta-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
+    margin-top: 1.2rem;
+  }
 }
 
 /* Ensure the hero section takes up space even if the carousel is loading slowly */
 .hero-container {
   min-height: 100vh;
 }
-
