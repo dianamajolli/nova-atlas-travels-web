@@ -7,7 +7,7 @@
 }
 
 .services-title {
-  font-family: var(--nova-font-secondary);
+  font-family: var(--nova-font-primary);
   font-size: 2.8rem; /* Increased size */
   color: var(--nova-deep-ocean);
   margin-bottom: 3.5rem; /* Increased margin */
