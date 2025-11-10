@@ -7,7 +7,7 @@
 }
 
 .services-title {
-  font-family: var(--nova-font-primary);
+  font-family: var(--nova-font-secondary);
   font-size: 2.8rem; /* Increased size */
   color: var(--nova-deep-ocean);
   margin-bottom: 3.5rem; /* Increased margin */
@@ -47,9 +47,9 @@
 .service-item h3 {
   font-family: var(--nova-font-secondary);
   font-size: 1.6rem; /* Increased size */
-  color: var(--nova-midnight-blue);
+  color: var(--nova-deep-ocean);
   margin-bottom: 1rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .service-item p {
