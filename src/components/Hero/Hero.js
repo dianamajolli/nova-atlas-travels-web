@@ -1,4 +1,5 @@
 // src/components/Hero/Hero.js
+// CORRIGIDO: ID alterado de "hero" para "home" para corresponder ao link do navbar
 
 // Import React for creating the component
 import React from "react";
@@ -59,8 +60,8 @@ const Hero = () => {
   ];
 
   return (
-    // The main container for the hero section, identified by id "hero" for navigation
-    <section id="hero" className="hero-container hero-carousel-section">
+    // CORREÇÃO: ID alterado de "hero" para "home" para corresponder ao link do navbar (#home)
+    <section id="home" className="hero-container hero-carousel-section">
       <Slider {...carouselSettings}>
         {carouselImages.map(image => (
           <div key={image.id} className="carousel-slide">
@@ -83,4 +84,3 @@ const Hero = () => {
 
 // Export the Hero component for use in App.js or other parent components
 export default Hero;
-

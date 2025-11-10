@@ -1,4 +1,5 @@
 // src/components/CTA/CTA.js (Call to Action)
+// CORRIGIDO: ID alterado de "cta" para "contact" para corresponder ao link do navbar
 
 // Import React for creating the component
 import React from "react";
@@ -50,8 +51,8 @@ const CTA = () => {
   };
 
   return (
-    // The main container for the CTA section, identified by id "cta" for navigation
-    <section id="cta" className="cta-container">
+    // CORREÇÃO: ID alterado de "cta" para "contact" para corresponder ao link do navbar (#contact)
+    <section id="contact" className="cta-container">
       {/* Content wrapper for the CTA text and button */}
       <div className="cta-content">
         {/* The main title of the CTA section, translated using t("cta.title") */}
