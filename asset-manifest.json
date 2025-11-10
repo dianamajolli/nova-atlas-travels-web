@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/nova-atlas-travels-web/static/css/main.efb3b202.css",
-    "main.js": "/nova-atlas-travels-web/static/js/main.77df13d2.js",
-    "static/js/488.a25cfd75.chunk.js": "/nova-atlas-travels-web/static/js/488.a25cfd75.chunk.js",
-    "static/media/hero-background.jpg": "/nova-atlas-travels-web/static/media/hero-background.6dd65bdcdb74cad8a4f4.jpg",
-    "static/media/hero-background2.jpg": "/nova-atlas-travels-web/static/media/hero-background2.76064fca06c2dc66ae17.jpg",
-    "static/media/hero-background3.jpg": "/nova-atlas-travels-web/static/media/hero-background3.e02bb03a32cf1b1cfc0e.jpg",
-    "static/media/logo.jpg": "/nova-atlas-travels-web/static/media/logo.290debd84510b6e58012.jpg",
-    "static/media/slick.svg": "/nova-atlas-travels-web/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/nova-atlas-travels-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/nova-atlas-travels-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/nova-atlas-travels-web/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/nova-atlas-travels-web/index.html",
-    "main.efb3b202.css.map": "/nova-atlas-travels-web/static/css/main.efb3b202.css.map",
-    "main.77df13d2.js.map": "/nova-atlas-travels-web/static/js/main.77df13d2.js.map",
-    "488.a25cfd75.chunk.js.map": "/nova-atlas-travels-web/static/js/488.a25cfd75.chunk.js.map"
+    "main.css": "./static/css/main.fb1eaa7e.css",
+    "main.js": "./static/js/main.ec8586fa.js",
+    "static/js/488.a25cfd75.chunk.js": "./static/js/488.a25cfd75.chunk.js",
+    "static/media/hero-background.jpg": "./static/media/hero-background.6dd65bdcdb74cad8a4f4.jpg",
+    "static/media/hero-background2.jpg": "./static/media/hero-background2.76064fca06c2dc66ae17.jpg",
+    "static/media/hero-background3.jpg": "./static/media/hero-background3.e02bb03a32cf1b1cfc0e.jpg",
+    "static/media/logo.jpg": "./static/media/logo.290debd84510b6e58012.jpg",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.fb1eaa7e.css.map": "./static/css/main.fb1eaa7e.css.map",
+    "main.ec8586fa.js.map": "./static/js/main.ec8586fa.js.map",
+    "488.a25cfd75.chunk.js.map": "./static/js/488.a25cfd75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efb3b202.css",
-    "static/js/main.77df13d2.js"
+    "static/css/main.fb1eaa7e.css",
+    "static/js/main.ec8586fa.js"
   ]
 }
