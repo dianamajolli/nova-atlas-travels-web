@@ -69,8 +69,8 @@
 }
 
 .language-selector button {
-  background-color: var(--nova-golden-tan);
-  border: 2px solid var(--nova-golden-tan);
+  background-color: var(--nova-white-sand);
+  border: 2px solid var(--nova-white-sand);
   color: var(--nova-midnight-blue);
   cursor: pointer;
   padding: 0.4rem 0.8rem;
@@ -82,14 +82,14 @@
 
 .language-selector button:hover {
   background-color: var(--nova-midnight-blue);
-  color: var(--nova-golden-tan);
-  border-color: var(--nova-golden-tan);
+  color: var(--nova-white-sand);
+  border-color: var(--nova-white-sand);
 }
 
 .language-selector button.active {
   background-color: var(--nova-midnight-blue);
-  color: var(--nova-golden-tan);
-  border-color: var(--nova-golden-tan);
+  color: var(--nova-white-sand);
+  border-color: var(--nova-white-sand);
   font-weight: bold;
 }
 
