@@ -15,11 +15,11 @@
     "title": "Our Services",
     "service1": {
       "title": "Personalized Itineraries",
-      "description": "Tailor-made travel plans designed to match your unique preferences and dreams."
+      "description": "Ideal for those seeking a complete, worry-free trip. We create a detailed, tailor-made itinerary for you to enjoy every moment."
     },
     "service2": {
-      "title": "Personalized Travel Consulting",
-      "description": "Access to unique activities and hidden gems that you won’t find anywhere else."
+      "title": "Travel Consulting",
+      "description": "Perfect for the experienced traveler who needs strategic tips. We offer a focused session to refine your itinerary with insights on restaurants, accommodations, and local secrets."
     }
    
   },

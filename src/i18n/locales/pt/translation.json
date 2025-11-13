@@ -11,15 +11,15 @@
     "subtitle": "Desfrute da viagem perfeita criada SOMENTE para você!",
     "cta": "Descubra Mais"
   },
-  "services": {
+    "services": {
     "title": "Nossos Serviços",
     "service1": {
       "title": "Roteiros Personalizados",
-      "description": "Planos de viagem feitos sob medida para combinar com suas preferências e sonhos únicos."
+      "description": "Ideal para quem busca uma viagem completa e sem preocupações. Nós criamos um roteiro detalhado e sob medida para você aproveitar cada momento."
     },
     "service2": {
       "title": "Consultoria de Viagem",
-      "description": "Acesso a atividades únicas e joias escondidas que você não encontrará em nenhum outro lugar."
+      "description": "Perfeito para o viajante experiente que precisa de dicas estratégicas. Oferecemos uma sessão focada para refinar seu roteiro, com insights sobre restaurantes, hospedagens e segredos locais."
     }
    
   },
