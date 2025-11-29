@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage - Bilingual -->
+  <url>
+    <loc>https://novaatlastravels.com/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://novaatlastravels.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://novaatlastravels.com/" />
+  </url>
+  
+  <!-- Services Page -->
+  <url>
+    <loc>https://novaatlastravels.com/services</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://novaatlastravels.com/services" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://novaatlastravels.com/services" />
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://novaatlastravels.com/about</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://novaatlastravels.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://novaatlastravels.com/about" />
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://novaatlastravels.com/contact</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://novaatlastravels.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://novaatlastravels.com/contact" />
+  </url>
+
+</urlset>
